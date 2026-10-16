@@ -1,0 +1,4826 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "IMAccountKit",
+    "printedName": "IMAccountKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectMapper",
+        "printedName": "ObjectMapper",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMAccountInfo",
+        "printedName": "IMAccountInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "account",
+            "printedName": "account",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A4InfoC7accountSSSgvp",
+            "mangledName": "$s12IMAccountKit0A4InfoC7accountSSSgvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC7accountSSSgvg",
+                "mangledName": "$s12IMAccountKit0A4InfoC7accountSSSgvg",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC7accountSSSgvs",
+                "mangledName": "$s12IMAccountKit0A4InfoC7accountSSSgvs",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC7accountSSSgvM",
+                "mangledName": "$s12IMAccountKit0A4InfoC7accountSSSgvM",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A4InfoC6userIdSSSgvp",
+            "mangledName": "$s12IMAccountKit0A4InfoC6userIdSSSgvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC6userIdSSSgvg",
+                "mangledName": "$s12IMAccountKit0A4InfoC6userIdSSSgvg",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC6userIdSSSgvs",
+                "mangledName": "$s12IMAccountKit0A4InfoC6userIdSSSgvs",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC6userIdSSSgvM",
+                "mangledName": "$s12IMAccountKit0A4InfoC6userIdSSSgvM",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A4InfoC11accessTokenSSSgvp",
+            "mangledName": "$s12IMAccountKit0A4InfoC11accessTokenSSSgvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC11accessTokenSSSgvg",
+                "mangledName": "$s12IMAccountKit0A4InfoC11accessTokenSSSgvg",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC11accessTokenSSSgvs",
+                "mangledName": "$s12IMAccountKit0A4InfoC11accessTokenSSSgvs",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC11accessTokenSSSgvM",
+                "mangledName": "$s12IMAccountKit0A4InfoC11accessTokenSSSgvM",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nickname",
+            "printedName": "nickname",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A4InfoC8nicknameSSSgvp",
+            "mangledName": "$s12IMAccountKit0A4InfoC8nicknameSSSgvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC8nicknameSSSgvg",
+                "mangledName": "$s12IMAccountKit0A4InfoC8nicknameSSSgvg",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC8nicknameSSSgvs",
+                "mangledName": "$s12IMAccountKit0A4InfoC8nicknameSSSgvs",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC8nicknameSSSgvM",
+                "mangledName": "$s12IMAccountKit0A4InfoC8nicknameSSSgvM",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "avatarUrl",
+            "printedName": "avatarUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A4InfoC9avatarUrlSSSgvp",
+            "mangledName": "$s12IMAccountKit0A4InfoC9avatarUrlSSSgvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC9avatarUrlSSSgvg",
+                "mangledName": "$s12IMAccountKit0A4InfoC9avatarUrlSSSgvg",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC9avatarUrlSSSgvs",
+                "mangledName": "$s12IMAccountKit0A4InfoC9avatarUrlSSSgvs",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC9avatarUrlSSSgvM",
+                "mangledName": "$s12IMAccountKit0A4InfoC9avatarUrlSSSgvM",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "region",
+            "printedName": "region",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A4InfoC6regionSSSgvp",
+            "mangledName": "$s12IMAccountKit0A4InfoC6regionSSSgvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC6regionSSSgvg",
+                "mangledName": "$s12IMAccountKit0A4InfoC6regionSSSgvg",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC6regionSSSgvs",
+                "mangledName": "$s12IMAccountKit0A4InfoC6regionSSSgvs",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC6regionSSSgvM",
+                "mangledName": "$s12IMAccountKit0A4InfoC6regionSSSgvM",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timezone",
+            "printedName": "timezone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A4InfoC8timezoneSSSgvp",
+            "mangledName": "$s12IMAccountKit0A4InfoC8timezoneSSSgvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC8timezoneSSSgvg",
+                "mangledName": "$s12IMAccountKit0A4InfoC8timezoneSSSgvg",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC8timezoneSSSgvs",
+                "mangledName": "$s12IMAccountKit0A4InfoC8timezoneSSSgvs",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC8timezoneSSSgvM",
+                "mangledName": "$s12IMAccountKit0A4InfoC8timezoneSSSgvM",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "createdAt",
+            "printedName": "createdAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A4InfoC9createdAtSSSgvp",
+            "mangledName": "$s12IMAccountKit0A4InfoC9createdAtSSSgvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC9createdAtSSSgvg",
+                "mangledName": "$s12IMAccountKit0A4InfoC9createdAtSSSgvg",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC9createdAtSSSgvs",
+                "mangledName": "$s12IMAccountKit0A4InfoC9createdAtSSSgvs",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC9createdAtSSSgvM",
+                "mangledName": "$s12IMAccountKit0A4InfoC9createdAtSSSgvM",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayName",
+            "printedName": "displayName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A4InfoC11displayNameSSSgvp",
+            "mangledName": "$s12IMAccountKit0A4InfoC11displayNameSSSgvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A4InfoC11displayNameSSSgvg",
+                "mangledName": "$s12IMAccountKit0A4InfoC11displayNameSSSgvg",
+                "moduleName": "IMAccountKit",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "mapping",
+            "printedName": "mapping(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Map",
+                "printedName": "ObjectMapper.Map",
+                "usr": "s:12ObjectMapper3MapC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A4InfoC7mapping3mapy12ObjectMapper3MapC_tF",
+            "mangledName": "$s12IMAccountKit0A4InfoC7mapping3mapy12ObjectMapper3MapC_tF",
+            "moduleName": "IMAccountKit",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IMAccountKit.IMAccountInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IMAccountInfo",
+                    "printedName": "IMAccountKit.IMAccountInfo",
+                    "usr": "s:12IMAccountKit0A4InfoC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Map",
+                "printedName": "ObjectMapper.Map",
+                "usr": "s:12ObjectMapper3MapC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IMAccountKit0A4InfoC3mapACSg12ObjectMapper3MapC_tcfc",
+            "mangledName": "$s12IMAccountKit0A4InfoC3mapACSg12ObjectMapper3MapC_tcfc",
+            "moduleName": "IMAccountKit",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12IMAccountKit0A4InfoC",
+        "mangledName": "$s12IMAccountKit0A4InfoC",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:9IMBaseKit16IMCommonResponseC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "IMBaseKit.IMCommonResponse"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "BaseMappable",
+            "printedName": "BaseMappable",
+            "usr": "s:12ObjectMapper12BaseMappableP",
+            "mangledName": "$s12ObjectMapper12BaseMappableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Mappable",
+            "printedName": "Mappable",
+            "usr": "s:12ObjectMapper8MappableP",
+            "mangledName": "$s12ObjectMapper8MappableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMAccountKitLaunch",
+        "printedName": "IMAccountKitLaunch",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "imLaunchKey",
+            "printedName": "imLaunchKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IMAccountKit@objc(cs)IMAccountKitLaunch(py)imLaunchKey",
+            "mangledName": "$s12IMAccountKit0aB6LaunchC02imC3KeySSvp",
+            "moduleName": "IMAccountKit",
+            "objc_name": "imLaunchKey",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IMAccountKit@objc(cs)IMAccountKitLaunch(im)imLaunchKey",
+                "mangledName": "$s12IMAccountKit0aB6LaunchC02imC3KeySSvg",
+                "moduleName": "IMAccountKit",
+                "objc_name": "imLaunchKey",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imLaunchName",
+            "printedName": "imLaunchName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@IMAccountKit@objc(cs)IMAccountKitLaunch(py)imLaunchName",
+            "mangledName": "$s12IMAccountKit0aB6LaunchC02imC4NameSSvp",
+            "moduleName": "IMAccountKit",
+            "objc_name": "imLaunchName",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@IMAccountKit@objc(cs)IMAccountKitLaunch(im)imLaunchName",
+                "mangledName": "$s12IMAccountKit0aB6LaunchC02imC4NameSSvg",
+                "moduleName": "IMAccountKit",
+                "objc_name": "imLaunchName",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "imLaunchExecute",
+            "printedName": "imLaunchExecute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IMAccountKit@objc(cs)IMAccountKitLaunch(im)imLaunchExecute",
+            "mangledName": "$s12IMAccountKit0aB6LaunchC02imC7ExecuteyyF",
+            "moduleName": "IMAccountKit",
+            "objc_name": "imLaunchExecute",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IMAccountKitLaunch",
+                "printedName": "IMAccountKit.IMAccountKitLaunch",
+                "usr": "c:@M@IMAccountKit@objc(cs)IMAccountKitLaunch"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IMAccountKit@objc(cs)IMAccountKitLaunch(im)init",
+            "mangledName": "$s12IMAccountKit0aB6LaunchCACycfc",
+            "moduleName": "IMAccountKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IMAccountKit@objc(cs)IMAccountKitLaunch",
+        "mangledName": "$s12IMAccountKit0aB6LaunchC",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IMKitCompatible",
+            "printedName": "IMKitCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IMKitBase",
+                "printedName": "IMKitBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:9IMBaseKit15IMKitCompatibleP",
+            "mangledName": "$s9IMBaseKit15IMKitCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IMLaunchRegistrant",
+            "printedName": "IMLaunchRegistrant",
+            "usr": "c:@M@IMBaseKit@objc(pl)IMLaunchRegistrant",
+            "mangledName": "$s9IMBaseKit18IMLaunchRegistrantP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Then",
+            "printedName": "Then",
+            "usr": "s:4ThenAAP",
+            "mangledName": "$s4ThenAAP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectMapper",
+        "printedName": "ObjectMapper",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMAccountManager",
+        "printedName": "IMAccountManager",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "TermsType",
+            "printedName": "TermsType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "agreement",
+                "printedName": "agreement",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IMAccountKit.IMAccountManager.TermsType.Type) -> IMAccountKit.IMAccountManager.TermsType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TermsType",
+                        "printedName": "IMAccountKit.IMAccountManager.TermsType",
+                        "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "IMAccountKit.IMAccountManager.TermsType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TermsType",
+                            "printedName": "IMAccountKit.IMAccountManager.TermsType",
+                            "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO9agreementyA2EmF",
+                "mangledName": "$s12IMAccountKit0A7ManagerC9TermsTypeO9agreementyA2EmF",
+                "moduleName": "IMAccountKit"
+              },
+              {
+                "kind": "Var",
+                "name": "privacy",
+                "printedName": "privacy",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IMAccountKit.IMAccountManager.TermsType.Type) -> IMAccountKit.IMAccountManager.TermsType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TermsType",
+                        "printedName": "IMAccountKit.IMAccountManager.TermsType",
+                        "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "IMAccountKit.IMAccountManager.TermsType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TermsType",
+                            "printedName": "IMAccountKit.IMAccountManager.TermsType",
+                            "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO7privacyyA2EmF",
+                "mangledName": "$s12IMAccountKit0A7ManagerC9TermsTypeO7privacyyA2EmF",
+                "moduleName": "IMAccountKit"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IMAccountKit.IMAccountManager.TermsType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TermsType",
+                        "printedName": "IMAccountKit.IMAccountManager.TermsType",
+                        "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO8rawValueAESgSS_tcfc",
+                "mangledName": "$s12IMAccountKit0A7ManagerC9TermsTypeO8rawValueAESgSS_tcfc",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO8rawValueSSvp",
+                "mangledName": "$s12IMAccountKit0A7ManagerC9TermsTypeO8rawValueSSvp",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO8rawValueSSvg",
+                    "mangledName": "$s12IMAccountKit0A7ManagerC9TermsTypeO8rawValueSSvg",
+                    "moduleName": "IMAccountKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12IMAccountKit0A7ManagerC9TermsTypeO",
+            "mangledName": "$s12IMAccountKit0A7ManagerC9TermsTypeO",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IMAccountManager",
+                "printedName": "IMAccountKit.IMAccountManager",
+                "usr": "s:12IMAccountKit0A7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A7ManagerC6sharedACvpZ",
+            "mangledName": "$s12IMAccountKit0A7ManagerC6sharedACvpZ",
+            "moduleName": "IMAccountKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IMAccountManager",
+                    "printedName": "IMAccountKit.IMAccountManager",
+                    "usr": "s:12IMAccountKit0A7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A7ManagerC6sharedACvgZ",
+                "mangledName": "$s12IMAccountKit0A7ManagerC6sharedACvgZ",
+                "moduleName": "IMAccountKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountInfo",
+            "printedName": "accountInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IMAccountKit.IMAccountInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IMAccountInfo",
+                    "printedName": "IMAccountKit.IMAccountInfo",
+                    "usr": "s:12IMAccountKit0A4InfoC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A7ManagerC11accountInfoAA0aE0CSgvp",
+            "mangledName": "$s12IMAccountKit0A7ManagerC11accountInfoAA0aE0CSgvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IMAccountKit.IMAccountInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IMAccountInfo",
+                        "printedName": "IMAccountKit.IMAccountInfo",
+                        "usr": "s:12IMAccountKit0A4InfoC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A7ManagerC11accountInfoAA0aE0CSgvg",
+                "mangledName": "$s12IMAccountKit0A7ManagerC11accountInfoAA0aE0CSgvg",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IMAccountKit.IMAccountInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IMAccountInfo",
+                        "printedName": "IMAccountKit.IMAccountInfo",
+                        "usr": "s:12IMAccountKit0A4InfoC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A7ManagerC11accountInfoAA0aE0CSgvs",
+                "mangledName": "$s12IMAccountKit0A7ManagerC11accountInfoAA0aE0CSgvs",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A7ManagerC11accountInfoAA0aE0CSgvM",
+                "mangledName": "$s12IMAccountKit0A7ManagerC11accountInfoAA0aE0CSgvM",
+                "moduleName": "IMAccountKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLoggedIn",
+            "printedName": "isLoggedIn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IMAccountKit0A7ManagerC10isLoggedInSbvp",
+            "mangledName": "$s12IMAccountKit0A7ManagerC10isLoggedInSbvp",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IMAccountKit0A7ManagerC10isLoggedInSbvg",
+                "mangledName": "$s12IMAccountKit0A7ManagerC10isLoggedInSbvg",
+                "moduleName": "IMAccountKit",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "logInByCode",
+            "printedName": "logInByCode(_:account:code:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC11logInByCode_7account4code10completionySS_S2SySb_SSSgtcSgtF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC11logInByCode_7account4code10completionySS_S2SySb_SSSgtcSgtF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logOut",
+            "printedName": "logOut(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC6logOutyyySb_SSSgtcSgF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC6logOutyyySb_SSSgtcSgF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC10unregisteryyySb_SSSgtcSgF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC10unregisteryyySb_SSSgtcSgF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "undoUnregister",
+            "printedName": "undoUnregister(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC14undoUnregisteryyySb_SSSgtcSgF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC14undoUnregisteryyySb_SSSgtcSgF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "queryAccountInfo",
+            "printedName": "queryAccountInfo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC16queryAccountInfoyyySb_SSSgtcSgF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC16queryAccountInfoyyySb_SSSgtcSgF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUserInfo",
+            "printedName": "updateUserInfo(_:timezone:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC14updateUserInfo_8timezone10completionySSSg_AGySb_AGtcSgtF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC14updateUserInfo_8timezone10completionySSSg_AGySb_AGtcSgtF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uploadAvatar",
+            "printedName": "uploadAvatar(_:fileName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC12uploadAvatar_8fileName10completiony10Foundation4DataV_SSSgySb_AJtcSgtF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC12uploadAvatar_8fileName10completiony10Foundation4DataV_SSSgySb_AJtcSgtF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "queryTerms",
+            "printedName": "queryTerms(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([[Swift.String : Any]]?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([[Swift.String : Any]]?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[[Swift.String : Any]]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[[Swift.String : Any]]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Dictionary",
+                                "printedName": "[Swift.String : Any]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:SD"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC10queryTerms_10completionySb_ySaySDySSypGGSgcSgtF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC10queryTerms_10completionySb_ySaySDySSypGGSgcSgtF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "acceptTerms",
+            "printedName": "acceptTerms(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC11acceptTerms_10completionySaySSG_ySb_SSSgtcSgtF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC11acceptTerms_10completionySaySSG_ySb_SSSgtcSgtF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bindDevice",
+            "printedName": "bindDevice(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC10bindDevice_10completionySS_ySb_SSSgtcSgtF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC10bindDevice_10completionySS_ySb_SSSgtcSgtF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bindedDevices",
+            "printedName": "bindedDevices(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC13bindedDevicesyyySb_SSSgtcSgF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC13bindedDevicesyyySb_SSSgtcSgF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unbindDevice",
+            "printedName": "unbindDevice(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit0A7ManagerC12unbindDevice_10completionySS_ySb_SSSgtcSgtF",
+            "mangledName": "$s12IMAccountKit0A7ManagerC12unbindDevice_10completionySS_ySb_SSSgtcSgtF",
+            "moduleName": "IMAccountKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12IMAccountKit0A7ManagerC",
+        "mangledName": "$s12IMAccountKit0A7ManagerC",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "IMUIKit",
+        "printedName": "IMUIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ActiveLabel",
+        "printedName": "ActiveLabel",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ActiveLabel",
+        "printedName": "ActiveLabel",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "IMUIKit",
+        "printedName": "IMUIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMUIKit",
+        "printedName": "IMUIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ActiveLabel",
+        "printedName": "ActiveLabel",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "IMUIKit",
+        "printedName": "IMUIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Then",
+        "printedName": "Then",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMLoginViewController",
+        "printedName": "IMLoginViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@IMAccountKit@objc(cs)IMLoginViewController(im)viewDidLoad",
+            "mangledName": "$s12IMAccountKit21IMLoginViewControllerC11viewDidLoadyyF",
+            "moduleName": "IMAccountKit",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupSubviews",
+            "printedName": "setupSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IMAccountKit21IMLoginViewControllerC13setupSubviewsyyF",
+            "mangledName": "$s12IMAccountKit21IMLoginViewControllerC13setupSubviewsyyF",
+            "moduleName": "IMAccountKit",
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IMLoginViewController",
+                "printedName": "IMAccountKit.IMLoginViewController",
+                "usr": "c:@M@IMAccountKit@objc(cs)IMLoginViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IMAccountKit@objc(cs)IMLoginViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s12IMAccountKit21IMLoginViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "IMAccountKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IMAccountKit.IMLoginViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IMLoginViewController",
+                    "printedName": "IMAccountKit.IMLoginViewController",
+                    "usr": "c:@M@IMAccountKit@objc(cs)IMLoginViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IMAccountKit@objc(cs)IMLoginViewController(im)initWithCoder:",
+            "mangledName": "$s12IMAccountKit21IMLoginViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "IMAccountKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IMAccountKit@objc(cs)IMLoginViewController",
+        "mangledName": "$s12IMAccountKit21IMLoginViewControllerC",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@IMUIKit@objc(cs)IMBaseViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "IMUIKit.IMBaseViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IMKitCompatible",
+            "printedName": "IMKitCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IMKitBase",
+                "printedName": "IMKitBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:9IMBaseKit15IMKitCompatibleP",
+            "mangledName": "$s9IMBaseKit15IMKitCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NavigationBarConfigurable",
+            "printedName": "NavigationBarConfigurable",
+            "usr": "c:@M@IMUIKit@objc(pl)NavigationBarConfigurable",
+            "mangledName": "$s7IMUIKit25NavigationBarConfigurableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Then",
+            "printedName": "Then",
+            "usr": "s:4ThenAAP",
+            "mangledName": "$s4ThenAAP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMUIKit",
+        "printedName": "IMUIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMUIKit",
+        "printedName": "IMUIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Then",
+        "printedName": "Then",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMUIKit",
+        "printedName": "IMUIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "IMBaseKit",
+        "printedName": "IMBaseKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IMUIKit",
+        "printedName": "IMUIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Then",
+        "printedName": "Then",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IMAccountKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IMKit",
+        "printedName": "IMKit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accountDidUnregister",
+            "printedName": "accountDidUnregister",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE20accountDidUnregisterAFvpZ",
+            "mangledName": "$s9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE20accountDidUnregisterAFvpZ",
+            "moduleName": "IMAccountKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE20accountDidUnregisterAFvgZ",
+                "mangledName": "$s9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE20accountDidUnregisterAFvgZ",
+                "moduleName": "IMAccountKit",
+                "genericSig": "<τ_0_0 where τ_0_0 == Foundation.NSNotification.Name>",
+                "sugared_genericSig": "<Base where Base == Foundation.NSNotification.Name>",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountDidLogin",
+            "printedName": "accountDidLogin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE15accountDidLoginAFvpZ",
+            "mangledName": "$s9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE15accountDidLoginAFvpZ",
+            "moduleName": "IMAccountKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE15accountDidLoginAFvgZ",
+                "mangledName": "$s9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE15accountDidLoginAFvgZ",
+                "moduleName": "IMAccountKit",
+                "genericSig": "<τ_0_0 where τ_0_0 == Foundation.NSNotification.Name>",
+                "sugared_genericSig": "<Base where Base == Foundation.NSNotification.Name>",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountDidLogout",
+            "printedName": "accountDidLogout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE16accountDidLogoutAFvpZ",
+            "mangledName": "$s9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE16accountDidLogoutAFvpZ",
+            "moduleName": "IMAccountKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE16accountDidLogoutAFvgZ",
+                "mangledName": "$s9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE16accountDidLogoutAFvgZ",
+                "moduleName": "IMAccountKit",
+                "genericSig": "<τ_0_0 where τ_0_0 == Foundation.NSNotification.Name>",
+                "sugared_genericSig": "<Base where Base == Foundation.NSNotification.Name>",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountInfoDidUpdate",
+            "printedName": "accountInfoDidUpdate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE20accountInfoDidUpdateAFvpZ",
+            "mangledName": "$s9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE20accountInfoDidUpdateAFvpZ",
+            "moduleName": "IMAccountKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE20accountInfoDidUpdateAFvgZ",
+                "mangledName": "$s9IMBaseKit5IMKitV09IMAccountB0So18NSNotificationNameaRszlE20accountInfoDidUpdateAFvgZ",
+                "moduleName": "IMAccountKit",
+                "genericSig": "<τ_0_0 where τ_0_0 == Foundation.NSNotification.Name>",
+                "sugared_genericSig": "<Base where Base == Foundation.NSNotification.Name>",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9IMBaseKit5IMKitV",
+        "mangledName": "$s9IMBaseKit5IMKitV",
+        "moduleName": "IMBaseKit",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Base>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 33,
+      "value": "\"com.inmo.x.AccountDidUnregister\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 28,
+      "value": "\"com.inmo.x.AccountDidLogin\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 29,
+      "value": "\"com.inmo.x.AccountDidLogout\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
+      "kind": "StringLiteral",
+      "offset": 617,
+      "length": 33,
+      "value": "\"com.inmo.x.AccountInfoDidUpdate\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Launch\/IMAccountKitLaunch.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 14,
+      "value": "\"IMAccountKit\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 25,
+      "value": "\"im_account_login_region\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 25,
+      "value": "\"im_account_user_account\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 16,
+      "value": "\"USER_AGREEMENT\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 16,
+      "value": "\"PRIVACY_POLICY\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 576,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 933,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 973,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12711,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Network\/IMAccountNetRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 9,
+      "value": "\"account\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Network\/IMAccountNetRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 9,
+      "value": "\"account\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Network\/IMAccountNetService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3476,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 949,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1037,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1300,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1389,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1602,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1638,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1742,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1753,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 576,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 603,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 32,
+      "value": "\"im_account_user_agreement_link\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "kind": "StringLiteral",
+      "offset": 678,
+      "length": 20,
+      "value": "\"《用户协议》\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 32,
+      "value": "\"im_account_privacy_policy_link\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "kind": "StringLiteral",
+      "offset": 774,
+      "length": 20,
+      "value": "\"《隐私政策》\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 36,
+      "value": "\"im_account_agreement_sheet_message\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 93,
+      "value": "\"为了让您在安全、放心的环境下使用INMO Moment，请阅读并同意%1$@和%2$@\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Cache\/IMCacheManager+Account.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 13,
+      "value": "\"accountInfo\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
+      "kind": "Array",
+      "offset": 433,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
+      "kind": "Array",
+      "offset": 472,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
+      "kind": "FloatLiteral",
+      "offset": 615,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 649,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3491,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 36,
+      "value": "\"im_account_verification_code_title\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 20,
+      "value": "\"请输入验证码\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 580,
+      "length": 4,
+      "value": "14.0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 29,
+      "value": "\"im_account_code_sent_format\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 28,
+      "value": "\"验证码已发送至 %1$@\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 791,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1068,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1175,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1282,
+      "length": 24,
+      "value": "\"im_account_resend_code\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 14,
+      "value": "\"重新获取\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1467,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 609,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 831,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 938,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1148,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1323,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1339,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1351,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1437,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1443,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1453,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1465,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1663,
+      "length": 10,
+      "value": "\"Disagree\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1733,
+      "length": 7,
+      "value": "\"Agree\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1882,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1892,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1904,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1915,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2028,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2105,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2331,
+      "length": 32,
+      "value": "\"im_account_user_agreement_link\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2365,
+      "length": 20,
+      "value": "\"《用户协议》\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2427,
+      "length": 32,
+      "value": "\"im_account_privacy_policy_link\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2461,
+      "length": 20,
+      "value": "\"《隐私政策》\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2534,
+      "length": 33,
+      "value": "\"im_account_login_agreement_text\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2569,
+      "length": 34,
+      "value": "\"我已阅读并接受%1$@和%2$@\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3345,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3383,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3426,
+      "length": 34,
+      "value": "\"im_account_get_verification_code\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3462,
+      "length": 17,
+      "value": "\"获取验证码\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3705,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 544,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 594,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 605,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 655,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 942,
+      "length": 4,
+      "value": "18.0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1049,
+      "length": 28,
+      "value": "\"popup_confirm_button_title\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1079,
+      "length": 8,
+      "value": "\"确定\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1126,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1477,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewModel\/IMRegionViewModel.swift",
+      "kind": "Array",
+      "offset": 304,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 26,
+      "value": "\"account_unregister_item1\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 68,
+      "value": "\"无法登录帐号，并移除该帐号下的所有登录方式。\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 26,
+      "value": "\"account_unregister_item2\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 62,
+      "value": "\"个人资料和文件资料将被清空，并无法找回。\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 26,
+      "value": "\"account_unregister_item3\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 897,
+      "length": 80,
+      "value": "\"帐号中所有资产及权益被清除，包括已购应用及订阅服务。\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1006,
+      "length": 26,
+      "value": "\"account_unregister_item4\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1034,
+      "length": 74,
+      "value": "\"取消所有三方平台的关联身份（如邮箱）且无法恢复。\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1264,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1378,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1488,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1528,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1713,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1789,
+      "length": 28,
+      "value": "\"account_unregister_warning\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1819,
+      "length": 68,
+      "value": "\"帐号一经注销，将无法恢复，请认真阅读以下说明\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1931,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2003,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2094,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2170,
+      "length": 29,
+      "value": "\"account_unregister_subtitle\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2201,
+      "length": 74,
+      "value": "\"帐号注销后，你将无法再使用该帐号，包括但不限于：\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2319,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2392,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2505,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2623,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2699,
+      "length": 35,
+      "value": "\"account_unregister_cooling_period\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2752,
+      "length": 107,
+      "value": "\"提交后进入 7 天犹豫期；在此期间登录即视为自动终止“账号注销”申请流程。\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2904,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2976,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3109,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3197,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3233,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3276,
+      "length": 28,
+      "value": "\"account_unregister_confirm\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3306,
+      "length": 14,
+      "value": "\"确认注销\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3612,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3699,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3735,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3778,
+      "length": 28,
+      "value": "\"account_unregister_abandon\""
+    },
+    {
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.fofGBz728h\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3808,
+      "length": 14,
+      "value": "\"放弃注销\""
+    }
+  ]
+}

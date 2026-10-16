@@ -1,0 +1,94 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IMAccountKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+import ActiveLabel
+import Foundation
+@_exported import IMAccountKit
+import IMBaseKit
+import IMUIKit
+import Moya
+import ObjectMapper
+import RxCocoa
+import RxSwift
+import SnapKit
+import Swift
+import Then
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension IMBaseKit::IMKit where Base == Foundation::NSNotification.Foundation::Name {
+  public static let accountDidUnregister: Foundation::Notification.Foundation::Name
+  public static let accountDidLogin: Foundation::Notification.Foundation::Name
+  public static let accountDidLogout: Foundation::Notification.Foundation::Name
+  public static let accountInfoDidUpdate: Foundation::Notification.Foundation::Name
+}
+@_inheritsConvenienceInitializers public class IMAccountInfo : IMBaseKit::IMCommonResponse {
+  @objc public var account: Swift::String?
+  @objc public var userId: Swift::String?
+  @objc public var accessToken: Swift::String?
+  @objc public var nickname: Swift::String?
+  @objc public var avatarUrl: Swift::String?
+  @objc public var region: Swift::String?
+  @objc public var timezone: Swift::String?
+  @objc public var createdAt: Swift::String?
+  @objc public var displayName: Swift::String? {
+    @objc get
+  }
+  override public func mapping(map: ObjectMapper::Map)
+  required public init?(map: ObjectMapper::Map)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class IMAccountKitLaunch : ObjectiveC::NSObject, IMBaseKit::IMLaunchRegistrant {
+  @objc final public var imLaunchKey: Swift::String {
+    @objc get
+  }
+  @objc final public var imLaunchName: Swift::String {
+    @objc get
+  }
+  @objc final public func imLaunchExecute()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class IMAccountManager {
+  public enum TermsType : Swift::String {
+    case agreement
+    case privacy
+    public init?(rawValue: Swift::String)
+    public typealias RawValue = Swift::String
+    public var rawValue: Swift::String {
+      get
+    }
+  }
+  public static let shared: IMAccountKit::IMAccountManager
+  final public var accountInfo: IMAccountKit::IMAccountInfo?
+  final public var isLoggedIn: Swift::Bool {
+    get
+  }
+  @objc deinit
+  final public func logInByCode(_ type: Swift::String, account: Swift::String, code: Swift::String, completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)? = nil)
+  final public func logOut(_ completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)? = nil)
+  final public func unregister(_ completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)? = nil)
+  final public func undoUnregister(_ completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)? = nil)
+  final public func queryAccountInfo(_ completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)? = nil)
+  final public func updateUserInfo(_ nickname: Swift::String?, timezone: Swift::String?, completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)? = nil)
+  final public func uploadAvatar(_ data: Foundation::Data, fileName: Swift::String?, completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)? = nil)
+  final public func queryTerms(_ showLoading: Swift::Bool = true, completion: ((_ terms: [[Swift::String : Any]]?) -> Swift::Void)?)
+  final public func acceptTerms(_ ids: [Swift::String], completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)?)
+}
+extension IMAccountKit::IMAccountManager {
+  final public func bindDevice(_ sn: Swift::String, completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)? = nil)
+  final public func bindedDevices(_ completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)? = nil)
+  final public func unbindDevice(_ sn: Swift::String, completion: ((_ isSuccess: Swift::Bool, _ errorMsg: Swift::String?) -> Swift::Void)? = nil)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency::MainActor @preconcurrency final public class IMLoginViewController : IMUIKit::IMBaseViewController {
+  @_Concurrency::MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency::MainActor @preconcurrency override final public func setupSubviews()
+  @_Concurrency::MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift::String?, bundle nibBundleOrNil: Foundation::Bundle?)
+  @_Concurrency::MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation::NSCoder)
+  @objc deinit
+}
+extension IMAccountKit::IMAccountManager.IMAccountKit::TermsType : Swift::Equatable {}
+extension IMAccountKit::IMAccountManager.IMAccountKit::TermsType : Swift::Hashable {}
+extension IMAccountKit::IMAccountManager.IMAccountKit::TermsType : Swift::RawRepresentable {}

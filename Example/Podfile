@@ -1,0 +1,25 @@
+platform :ios, '15.0'
+use_frameworks! :linkage => :static
+
+target 'IMAccountKit_Example' do
+  # pod 'IMBaseKit', :path => '../../IMBaseKit'
+  # pod 'IMUIKit', :path => '../../IMUIKit'
+  # pod 'IMAccountKit', :path => '../'
+  pod 'IMBaseKit', :git => 'https://github.com/INMO-X/IMBaseKit.git', :tag => '0.1.0'
+  pod 'IMUIKit', :git => 'https://github.com/INMO-X/IMUIKit.git', :tag => '0.1.0'
+  pod 'IMAccountKit', :git => 'https://github.com/INMO-X/IMAccountKit.git', :tag => '0.1.0'
+
+  target 'IMAccountKit_Tests' do
+    inherit! :search_paths
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 15.0
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+      end
+    end
+  end
+end

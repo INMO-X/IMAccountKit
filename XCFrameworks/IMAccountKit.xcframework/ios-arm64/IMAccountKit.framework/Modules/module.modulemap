@@ -1,0 +1,10 @@
+framework module IMAccountKit {
+  umbrella header "IMAccountKit.h"
+  export *
+
+  module * { export * }
+}
+
+module IMAccountKit.Swift {
+  header "IMAccountKit-Swift.h"
+}
