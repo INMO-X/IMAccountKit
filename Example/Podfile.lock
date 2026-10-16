@@ -1,0 +1,131 @@
+PODS:
+  - ActiveLabel (1.1.0)
+  - Alamofire (5.12.2)
+  - CocoaLumberjack/Core (3.9.1)
+  - CocoaLumberjack/Swift (3.9.1):
+    - CocoaLumberjack/Core
+  - Connectivity (8.0.1)
+  - CryptoSwift (1.10.0)
+  - IMAccountKit (0.1.0):
+    - ActiveLabel (= 1.1.0)
+    - IMBaseKit (= 0.1.0)
+    - IMUIKit (= 0.1.0)
+    - Kingfisher (= 8.12.0)
+    - RxCocoa (= 6.9.0)
+    - RxSwift (= 6.9.0)
+    - SnapKit (= 5.7.1)
+    - Then (= 3.0.0)
+  - IMBaseKit (0.1.0):
+    - CocoaLumberjack/Swift (= 3.9.1)
+    - Connectivity (= 8.0.1)
+    - CryptoSwift (= 1.10.0)
+    - Kingfisher (= 8.12.0)
+    - MMKV (= 2.4.2)
+    - Moya (= 15.0.0)
+    - ObjectMapper (= 4.4.2)
+  - IMUIKit (0.1.0):
+    - ActiveLabel (= 1.1.0)
+    - IMBaseKit (= 0.1.0)
+    - Kingfisher (= 8.12.0)
+    - MJRefresh (= 3.7.9)
+    - RxCocoa (= 6.9.0)
+    - RxSwift (= 6.9.0)
+    - SnapKit (= 5.7.1)
+    - Then (= 3.0.0)
+    - TZImagePickerController (= 3.8.12)
+  - Kingfisher (8.12.0)
+  - MJRefresh (3.7.9)
+  - MMKV (2.4.2):
+    - MMKVCore (~> 2.4.2)
+  - MMKVCore (2.4.2)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ObjectMapper (4.4.2)
+  - RxCocoa (6.9.0):
+    - RxRelay (= 6.9.0)
+    - RxSwift (= 6.9.0)
+  - RxRelay (6.9.0):
+    - RxSwift (= 6.9.0)
+  - RxSwift (6.9.0)
+  - SnapKit (5.7.1)
+  - Then (3.0.0)
+  - TZImagePickerController (3.8.12):
+    - TZImagePickerController/Basic (= 3.8.12)
+    - TZImagePickerController/Location (= 3.8.12)
+  - TZImagePickerController/Basic (3.8.12)
+  - TZImagePickerController/Location (3.8.12)
+
+DEPENDENCIES:
+  - IMAccountKit (from `https://github.com/INMO-X/IMAccountKit.git`, tag `0.1.0`)
+  - IMBaseKit (from `https://github.com/INMO-X/IMBaseKit.git`, tag `0.1.0`)
+  - IMUIKit (from `https://github.com/INMO-X/IMUIKit.git`, tag `0.1.0`)
+
+SPEC REPOS:
+  trunk:
+    - ActiveLabel
+    - Alamofire
+    - CocoaLumberjack
+    - Connectivity
+    - CryptoSwift
+    - Kingfisher
+    - MJRefresh
+    - MMKV
+    - MMKVCore
+    - Moya
+    - ObjectMapper
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - Then
+    - TZImagePickerController
+
+EXTERNAL SOURCES:
+  IMAccountKit:
+    :git: https://github.com/INMO-X/IMAccountKit.git
+    :tag: 0.1.0
+  IMBaseKit:
+    :git: https://github.com/INMO-X/IMBaseKit.git
+    :tag: 0.1.0
+  IMUIKit:
+    :git: https://github.com/INMO-X/IMUIKit.git
+    :tag: 0.1.0
+
+CHECKOUT OPTIONS:
+  IMAccountKit:
+    :git: https://github.com/INMO-X/IMAccountKit.git
+    :tag: 0.1.0
+  IMBaseKit:
+    :git: https://github.com/INMO-X/IMBaseKit.git
+    :tag: 0.1.0
+  IMUIKit:
+    :git: https://github.com/INMO-X/IMUIKit.git
+    :tag: 0.1.0
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  Alamofire: c5f37d8f438dc1d7fd3ff767f2f80fd01ca381d7
+  CocoaLumberjack: e4ba3b414dfca8c1916c6303d37f63b3a95134c6
+  Connectivity: f9e562568f32d7a297412d939edac9f3959db96f
+  CryptoSwift: e2e7776512f250e66205955da748e7a4e4abffe0
+  IMAccountKit: 7a047d91addfdb5558219782e54108dfec973a95
+  IMBaseKit: b5a6699749fdf2a571a5f334d4d0302666846786
+  IMUIKit: 5b5d216ec188a33d0c419cc3c3ee4f3d5d0e7367
+  Kingfisher: 64e06c7d1a9851ecff9d1b14f92ad01141263dae
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  MMKV: d37bccee64404d7c3e1457fabd9368e78d69a80f
+  MMKVCore: a58d2ce5b580948122e85be3ddf378c9b1ef739e
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ObjectMapper: e6e4d91ff7f2861df7aecc536c92d8363f4c9677
+  RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
+  RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+  TZImagePickerController: 3751b9b850d00802e9f4f7bd8e1365ee5c4f0990
+
+PODFILE CHECKSUM: ce34e795bcbbb53ee734c27b8aa2f039dcd8f5db
+
+COCOAPODS: 1.16.2
