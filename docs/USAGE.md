@@ -87,7 +87,7 @@ IMAccountManager.shared.queryTerms { terms in
 IMAccountManager.shared.acceptTerms(ids) { isSuccess, errorMsg in }
 ```
 
-`queryTerms(false)` 不显示加载 Toast。结果缓存在内存，收到内存警告才清空。
+`queryTerms(false)` 不显示加载 Toast。结果缓存在内存，收到内存警告才清空。协议弹层兜底文案的第一个参数是 `Bundle.im.appName`，不再写死应用名。
 
 设备：
 
