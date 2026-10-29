@@ -3892,931 +3892,931 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
       "kind": "StringLiteral",
       "offset": 254,
       "length": 33,
       "value": "\"com.inmo.x.AccountDidUnregister\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 28,
       "value": "\"com.inmo.x.AccountDidLogin\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
       "kind": "StringLiteral",
       "offset": 490,
       "length": 29,
       "value": "\"com.inmo.x.AccountDidLogout\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Utils\/IMAccountConst.swift",
       "kind": "StringLiteral",
       "offset": 617,
       "length": 33,
       "value": "\"com.inmo.x.AccountInfoDidUpdate\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Launch\/IMAccountKitLaunch.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Launch\/IMAccountKitLaunch.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 14,
       "value": "\"IMAccountKit\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 25,
       "value": "\"im_account_login_region\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 25,
       "value": "\"im_account_user_account\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 16,
       "value": "\"USER_AGREEMENT\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
       "kind": "StringLiteral",
       "offset": 407,
       "length": 16,
       "value": "\"PRIVACY_POLICY\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
       "kind": "IntegerLiteral",
       "offset": 572,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
       "kind": "IntegerLiteral",
       "offset": 576,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
       "kind": "BooleanLiteral",
       "offset": 933,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
       "kind": "IntegerLiteral",
       "offset": 973,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Service\/IMAccountManager.swift",
       "kind": "BooleanLiteral",
       "offset": 12711,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Network\/IMAccountNetRequest.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Network\/IMAccountNetRequest.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 9,
       "value": "\"account\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Network\/IMAccountNetRequest.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Network\/IMAccountNetRequest.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 9,
       "value": "\"account\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Network\/IMAccountNetService.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Network\/IMAccountNetService.swift",
       "kind": "BooleanLiteral",
       "offset": 3476,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 949,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 1037,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 1300,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 1389,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 1408,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 1602,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 1638,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 1742,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 1753,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 456,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 576,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
       "kind": "IntegerLiteral",
       "offset": 603,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
       "kind": "StringLiteral",
       "offset": 644,
       "length": 32,
       "value": "\"im_account_user_agreement_link\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
       "kind": "StringLiteral",
       "offset": 678,
       "length": 20,
       "value": "\"《用户协议》\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
       "kind": "StringLiteral",
       "offset": 740,
       "length": 32,
       "value": "\"im_account_privacy_policy_link\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 20,
       "value": "\"《隐私政策》\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
       "kind": "StringLiteral",
       "offset": 847,
       "length": 36,
       "value": "\"im_account_agreement_sheet_message\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMAgreementSheetView.swift",
       "kind": "StringLiteral",
       "offset": 885,
       "length": 86,
       "value": "\"为了让您在安全、放心的环境下使用%1$@，请阅读并同意%2$@和%3$@\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Cache\/IMCacheManager+Account.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Manager\/Cache\/IMCacheManager+Account.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 13,
       "value": "\"accountInfo\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
       "kind": "Array",
       "offset": 433,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
       "kind": "Array",
       "offset": 472,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
       "kind": "FloatLiteral",
       "offset": 615,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
       "kind": "IntegerLiteral",
       "offset": 649,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/View\/IMCodeInputView.swift",
       "kind": "BooleanLiteral",
       "offset": 3491,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 332,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 36,
       "value": "\"im_account_verification_code_title\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "StringLiteral",
       "offset": 456,
       "length": 20,
       "value": "\"请输入验证码\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "FloatLiteral",
       "offset": 580,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "StringLiteral",
       "offset": 683,
       "length": 29,
       "value": "\"im_account_code_sent_format\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "StringLiteral",
       "offset": 714,
       "length": 28,
       "value": "\"验证码已发送至 %1$@\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 791,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1068,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1175,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "StringLiteral",
       "offset": 1282,
       "length": 24,
       "value": "\"im_account_resend_code\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "StringLiteral",
       "offset": 1308,
       "length": 14,
       "value": "\"重新获取\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMCodeViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1467,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 417,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 609,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "FloatLiteral",
       "offset": 831,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 938,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1148,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1323,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1329,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1339,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1351,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1437,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1443,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1453,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1465,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "StringLiteral",
       "offset": 1663,
       "length": 10,
       "value": "\"Disagree\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "StringLiteral",
       "offset": 1733,
       "length": 7,
       "value": "\"Agree\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1882,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1892,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1904,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1915,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2028,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2105,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "StringLiteral",
       "offset": 2331,
       "length": 32,
       "value": "\"im_account_user_agreement_link\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "StringLiteral",
       "offset": 2365,
       "length": 20,
       "value": "\"《用户协议》\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "StringLiteral",
       "offset": 2427,
       "length": 32,
       "value": "\"im_account_privacy_policy_link\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "StringLiteral",
       "offset": 2461,
       "length": 20,
       "value": "\"《隐私政策》\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "StringLiteral",
       "offset": 2534,
       "length": 33,
       "value": "\"im_account_login_agreement_text\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "StringLiteral",
       "offset": 2569,
       "length": 34,
       "value": "\"我已阅读并接受%1$@和%2$@\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "FloatLiteral",
       "offset": 3345,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3383,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "StringLiteral",
       "offset": 3426,
       "length": 34,
       "value": "\"im_account_get_verification_code\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "StringLiteral",
       "offset": 3462,
       "length": 17,
       "value": "\"获取验证码\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMLoginViewController.swift",
       "kind": "FloatLiteral",
       "offset": 3705,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 544,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
       "kind": "FloatLiteral",
       "offset": 594,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 605,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 655,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
       "kind": "FloatLiteral",
       "offset": 942,
       "length": 4,
       "value": "18.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
       "kind": "StringLiteral",
       "offset": 1049,
       "length": 28,
       "value": "\"popup_confirm_button_title\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
       "kind": "StringLiteral",
       "offset": 1079,
       "length": 8,
       "value": "\"确定\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1126,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMRegionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1477,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewModel\/IMRegionViewModel.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewModel\/IMRegionViewModel.swift",
       "kind": "Array",
       "offset": 304,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 26,
       "value": "\"account_unregister_item1\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 68,
       "value": "\"无法登录帐号，并移除该帐号下的所有登录方式。\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 750,
       "length": 26,
       "value": "\"account_unregister_item2\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 778,
       "length": 62,
       "value": "\"个人资料和文件资料将被清空，并无法找回。\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 869,
       "length": 26,
       "value": "\"account_unregister_item3\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 897,
       "length": 80,
       "value": "\"帐号中所有资产及权益被清除，包括已购应用及订阅服务。\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 1006,
       "length": 26,
       "value": "\"account_unregister_item4\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 1034,
       "length": 74,
       "value": "\"取消所有三方平台的关联身份（如邮箱）且无法恢复。\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1264,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1378,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1488,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1528,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1660,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 1736,
       "length": 28,
       "value": "\"account_unregister_warning\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 1766,
       "length": 68,
       "value": "\"帐号一经注销，将无法恢复，请认真阅读以下说明\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1878,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1950,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2041,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 2117,
       "length": 29,
       "value": "\"account_unregister_subtitle\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 2148,
       "length": 74,
       "value": "\"帐号注销后，你将无法再使用该帐号，包括但不限于：\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2266,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2339,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2452,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2570,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 2646,
       "length": 35,
       "value": "\"account_unregister_cooling_period\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 2699,
       "length": 107,
       "value": "\"提交后进入 7 天犹豫期；在此期间登录即视为自动终止“账号注销”申请流程。\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2851,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2923,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 3056,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 3144,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3180,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 3223,
       "length": 28,
       "value": "\"account_unregister_confirm\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 3253,
       "length": 14,
       "value": "\"确认注销\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 3559,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 3646,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3682,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 3725,
       "length": 28,
       "value": "\"account_unregister_abandon\""
     },
     {
-      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.4SDRqk4nfs\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
+      "filePath": "\/var\/folders\/z1\/w379z4_n4zg71ltvnq1lr9kw0000gn\/T\/imaccountkit-build-XXXX.8wU1zr4zZh\/IMAccountKit\/Sources\/IMAccountKit\/Classes\/Login\/ViewController\/IMUnregisterAccountViewController.swift",
       "kind": "StringLiteral",
       "offset": 3755,
       "length": 14,
