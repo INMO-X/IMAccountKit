@@ -38,7 +38,7 @@ end
 
 `pod install` 后勾选图标在 **`IMAccountKit.bundle`**（`Agree`、`Disagree`）。不要重命名。静态链接时库会先查类所在 bundle，再查主 bundle。
 
-这份 0.1.0 是国内版：手机号 + 短信验证码。库内 `#if INMOX_GLOBAL` 已在打包时确定，宿主编译条件改不了。
+登录方式看宿主 bundle id：`com.inmox.next` 用手机号 + 短信验证码，`com.inmox.next.global` 用邮箱 + 邮件验证码。同一份二进制包含两条路径，不再由打包时的 `#if INMOX_GLOBAL` 裁成单一路径。
 
 依赖版本与打这个包时一致：IMBaseKit 0.1.0、IMUIKit 0.1.0、ActiveLabel 1.1.0、Kingfisher 8.12.0、RxSwift / RxCocoa 6.9.0、SnapKit 5.7.1、Then 3.0.0。
 

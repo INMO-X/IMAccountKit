@@ -6,7 +6,7 @@
 
 勾选图标在名为 **IMAccountKit** 的 bundle 里：`Agree`、`Disagree`。静态链接时这个 bundle 在主 App 里。库会先查类所在 bundle，再查主 bundle。不要重命名。登录文案在 IMBaseKit 的语言包里，不在本 bundle。
 
-默认这份二进制是国内版：手机号 + 短信验证码。`#if INMOX_GLOBAL` 在打包时已经裁成国内分支，宿主的编译条件改不了登录方式。
+登录方式看宿主 bundle id，不看编译标记。`IMBuildRegion.isGlobal` 为 true 时用邮箱，否则用手机号。当前 `com.inmox.next.global` 走邮箱，`com.inmox.next` 走手机号。宿主的编译条件改不了已经打进静态库的判断。
 
 ---
 
@@ -38,7 +38,7 @@ import IMAccountKit
 window.rootViewController = IMBaseNavigationController(rootViewController: IMLoginViewController())
 ```
 
-国内版显示 `+86`、数字键盘，校验 11 位数字，接口 `type` 为 `PHONE`。
+海外包（`IMBuildRegion.isGlobal`）无区号，邮箱键盘，校验邮箱格式，接口 `type` 为 `EMAIL`。国内包显示 `+86`、数字键盘，校验 11 位数字，接口 `type` 为 `PHONE`。
 
 ## 状态
 
